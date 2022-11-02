@@ -1,0 +1,25 @@
+.title {
+    margin: 0;
+    display: flex;
+    align-self: center;
+    font-family: 'LeagueSpartan';
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        font-size: 68px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .title {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+}

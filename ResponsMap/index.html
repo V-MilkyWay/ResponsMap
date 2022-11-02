@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Карта Ответственности</title>
+    <link rel="shortcut icon" type="image/svg" href="./image/favicon.ico" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body id="map" class="body">
+    <header class="header">
+        <img class="logo" src="./image/logo.svg">
+        <h1 class="title">Карта Ответственности</h1>
+        <button class="button-menu">
+            <img onclick="openMenu()" class="menu-image" src="./image/menu.png" alt="Меню">
+        </button>
+    </header>
+    <main class="main">
+        <ul class="navigation">
+            <button class="button-menu-esc">
+                <img onclick="clouseMenu()" class="menu-image" src="./image/esc-menu.png" alt="Меню">
+            </button>
+            <h3 class="social-title social-title-nav">Навигация по сайту:</h3>
+            <li class="link-nav">
+                <a class="link" href="#desc">О проекте</a>
+            </li>
+            <li class="link-nav">
+                <a class="link" href="#map">Карта</a>
+            </li>
+            <li class="link-nav">
+                <a class="link" href="#social">Контакты</a>
+            </li>
+        </ul>
+        <h3 class="filter_title">Объекты городской инфраструктуры</h3>
+        <div class="filter">
+            <img class="filter_image" src="./image/road.png" alt="Дороги, мосты, тоннели">
+            <img class="filter_image" src="./image/river.png" alt="Водоемы">
+            <img class="filter_image" src="./image/people1.png" alt="Места общего пользования">
+            <img class="filter_image" src="./image/city.png" alt="Придомовая территория">
+        </div>
+        <iframe class="map" src="https://yandex.ru/map-widget/v1/-/COEsvec" height="320" frameborder="1"
+            allowfullscreen="true" style="position:relative;">
+        </iframe>
+        <div class="description" id="desc">
+            <h2 class="description__title">Добро пожаловать на сайт «Карта Ответственности»!</h2>
+            <p class="description__text">«Карта Ответственности» - онлайн-сервис, где размещена информация о зонах
+                ответственности комитетов,
+                муниципалитетов и казённых учреждений по вопросам уборки Санкт-Петербурга.</p>
+            <p class="description__text"> На платформе «Карты» пользователь может посмотреть куда именно обращаться с
+                вопросами и предложениями по
+                уборке определенной территории.</p>
+            <img class="description__img" src="./image/gov1.jpg">
+            <img class="description__img" src="./image/gov2.jpg">
+        </div>
+       <!-- <div class="instruct" id="desc">
+            <h2>Инструкция по пользованию:</h2>
+            <p>1. выбрать интересующую пользователя проблему в меню</p>
+            <p>2. с помощью рычага напротив включить соответствующий слой</p>
+            <p>3. на карте найти интересующую территорию, где будет размещена информация об ответственном ведомстве по
+                уборке.</p>
+        </div> -->
+    </main>
+    <footer class="footer">
+        <h3 class="footer-autor">&copy; 2022. SohoWare</h3>
+        <nav id="social" class="social-links">
+            <h3 class="social-title">Соцсети:</h3>
+            <a class="link" href="#desc">
+                <img class="link-image" src="./image/vk.svg" alt="Вк">Мы Вконтакте</a>
+            <a class="link" href="http://most-online.ru/">
+                <img class="link-image" src="./image/vk.svg" alt="Вк">Наша организация</a>
+            <a class="link" href="https://sohoware.ru/">
+                <img class="link-image" src="./image/vk.svg" alt="Вк">Наши разработчики</a>
+        </nav>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>

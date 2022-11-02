@@ -1,0 +1,5 @@
+.map {
+    margin: 0;
+    z-index: 2;
+    border-bottom: 2px solid rgb(95, 95, 95, 0.5);
+}

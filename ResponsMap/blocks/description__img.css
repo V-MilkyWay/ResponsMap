@@ -1,0 +1,29 @@
+.description__img {
+    margin: 0;
+    grid-area: img1;
+}
+
+.description__img:nth-child(5) {
+    grid-area: img2;
+}
+
+@media screen and (min-width: 1024px) {
+    .description__img {
+        width: 400px;
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .description__img {
+        width: 400px;
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .description__img {
+        width: 160px;
+        height: 100px;
+    }
+}

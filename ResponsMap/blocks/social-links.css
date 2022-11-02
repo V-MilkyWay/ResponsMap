@@ -1,0 +1,24 @@
+.social-links {
+    margin: 0;
+    margin-left: auto;
+    margin-right: 30px;
+    display: flex;
+    flex-flow: column;
+    font-family: 'LeagueSpartan';
+    font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+    .social-links {
+        font-size: auto;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .social-links {
+        font-size: 12px;
+        margin-right: 10px;
+
+    }
+}

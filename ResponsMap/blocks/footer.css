@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    margin: 0;
+    padding-top: 15px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-top: 2px solid rgb(95, 95, 95, 0.5);
+}
