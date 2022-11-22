@@ -21,6 +21,12 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
       mapPublic[0].style.display = 'none';
       mapWater[0].style.display = 'none';
       mapCity[0].style.display = 'none';
+
+      buttonMapRoads[0].style.background = 'white';
+      buttonMapPublic[0].style.background = 'gray';
+      buttonMapWater[0].style.background= 'gray';
+      buttonMapCity[0].style.background = 'gray';
+
       buttonMapRoads[0].src = './image/road.png';
       buttonMapPublic[0].src = './image/people-unactive.png';
       buttonMapWater[0].src = './image/water-unactive.png';
@@ -32,6 +38,12 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
       mapRoads[0].style.display = 'none';
       mapWater[0].style.display = 'none';
       mapCity[0].style.display = 'none';
+
+      buttonMapPublic[0].style.background = 'white';
+      buttonMapRoads[0].style.background = 'gray';
+      buttonMapWater[0].style.background= 'gray';
+      buttonMapCity[0].style.background = 'gray';
+
       buttonMapRoads[0].src = './image/road-unactive.png';
       buttonMapPublic[0].src = './image/people1.png';
       buttonMapWater[0].src = './image/water-unactive.png';
@@ -43,6 +55,12 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
       mapRoads[0].style.display = 'none';
       mapPublic[0].style.display = 'none';
       mapCity[0].style.display = 'none';
+
+      buttonMapWater[0].style.background = 'white';
+      buttonMapPublic[0].style.background = 'gray';
+      buttonMapRoads[0].style.background= 'gray';
+      buttonMapCity[0].style.background = 'gray';
+
       buttonMapRoads[0].src = './image/road-unactive.png';
       buttonMapPublic[0].src = './image/people-unactive.png';
       buttonMapWater[0].src = './image/river.png';
@@ -54,6 +72,13 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
       // mapRoads[0].style.display = 'none';
       // mapPublic[0].style.display = 'none';
       // mapWater[0].style.display = 'none';
+
+
+      //buttonMapCity[0].style.background = 'white';
+      //buttonMapPublic[0].style.background = 'gray;';
+      //buttonMapWater[0].style.background= 'gray';
+      //buttonMapRoads[0].style.background = 'gray;';
+      
       //buttonMapRoads[0].src = './image/road-unactive.png';
       //buttonMapPublic[0].src = './image/people-unactive.png';
       //buttonMapWater[0].src = './image/water-unactive.png';
