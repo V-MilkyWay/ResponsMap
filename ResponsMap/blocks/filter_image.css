@@ -4,7 +4,7 @@
     background-color: gray;
     box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1),
         0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
+    border-radius: 50%;
 }
 
 .filter_image-road {
