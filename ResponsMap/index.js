@@ -8,6 +8,18 @@ let buttonMapPublic = document.querySelectorAll('.filter_image-river');
 let buttonMapWater = document.querySelectorAll('.filter_image-people');
 let buttonMapCity = document.querySelectorAll('.filter_image-city');
 
+   function openVK(){
+      window.open("https://vk.com/most.strategy")
+   }
+
+   function openMOST(){
+      window.open("http://most-online.ru/")
+   }
+
+   function openSOHO(){
+      window.open("https://sohoware.ru/")
+   }
+
    function openMenu(){
     menu[0].style.display = 'flex';
    }
