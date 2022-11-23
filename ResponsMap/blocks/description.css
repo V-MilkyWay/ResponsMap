@@ -3,6 +3,10 @@
     display: grid;
     align-self: center;
     font-family: 'LeagueSpartan';
+    grid-template-areas:
+        'title title'
+        'text1 text1'
+        'text2 text2';
 }
 
 @media screen and (min-width: 1280px) {
@@ -10,10 +14,6 @@
         grid-template-columns: 550px 400px;
         gap: 40px 140px;
         font-family: 'LeagueSpartan', sans-serif;
-        grid-template-areas:
-        'title title'
-        'text1 img1'
-        'text2 img2';
     }
 }
 
@@ -22,10 +22,6 @@
         grid-template-columns: 550px 400px;
         gap: 40px 20px;
         font-family: sans-serif;
-        grid-template-areas:
-        'title title'
-        'text1 img1'
-        'text2 img2';
     }
 }
 
@@ -34,10 +30,6 @@
         grid-template-columns: 290px 400px;
         gap: 15px 15px;
         font-family: sans-serif;
-        grid-template-areas:
-        'title title'
-        'text1 img1'
-        'text2 img2';
     }
 }
 
@@ -46,12 +38,6 @@
         grid-template-columns: 300px;
         gap: 5px 5px;
         font-family: sans-serif;
-        grid-template-areas:
-        'title'
-        'text1'
-        'img1'
-        'text2'
-        'img2';
         justify-items: center;
     }
 }
