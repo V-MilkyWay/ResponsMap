@@ -1,0 +1,16 @@
+.instruction__img {
+    margin: 0;
+    grid-area: img1;
+    width: 242px;
+    height: 236px;
+    border-radius: 5%;
+    border: 3px solid black;
+}
+
+.instruction__img:nth-child(5) {
+    grid-area: img2;
+}
+
+.instruction__img:nth-child(7) {
+    grid-area: img3;
+}
