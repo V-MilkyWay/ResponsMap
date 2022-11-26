@@ -36,6 +36,16 @@
     display: none !important;
 }
 
+.ymaps-2-1-79-business-card-maps-button{
+    display: none !important;
+}
+.ymaps-2-1-79-islets_card__separator{
+    display: none !important;
+}
+.ymaps-2-1-79-islets_card__row-links{
+    display: none !important;
+}
+
 
 
 @media screen and (min-width: 1024) {
@@ -51,6 +61,11 @@
 
     .ymaps-2-1-79-searchpanel-pane {
         right: 0 !important;
+        left: auto !important;
+        width: 85% !important;
+    }
+
+    .ymaps-2-1-79-balloon{
         left: auto !important;
         width: 85% !important;
     }

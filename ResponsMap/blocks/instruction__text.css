@@ -2,6 +2,7 @@
     margin: 0;
     grid-area: text1;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .instruction__text:nth-child(4) {
