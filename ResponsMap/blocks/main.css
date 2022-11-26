@@ -8,3 +8,51 @@
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
+
+.ymaps-2-1-79-traffic {
+    display: none !important;
+}
+
+.ymaps-2-1-79-listbox__button {
+    display: none !important;
+}
+
+.ymaps-2-1-79-route-panel-button__button {
+    display: none !important;
+}
+
+.ymaps-2-1-79-controls__control {
+    display: none !important;
+}
+
+.ymaps-2-1-79-map-copyrights-promo {
+    display: none !important;
+}
+
+.ymaps-2-1-79-copyright__link {
+    display: none !important;
+}
+
+.ymaps-2-1-79-search__suggest-catalog {
+    display: none !important;
+}
+
+
+
+@media screen and (min-width: 1024) {
+    .ymaps-2-1-79-controls__control_toolbar {
+        margin-left: 32px !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .ymaps-2-1-79-controls__control_toolbar {
+        margin-left: 10px !important;
+    }
+
+    .ymaps-2-1-79-searchpanel-pane {
+        right: 0 !important;
+        left: auto !important;
+        width: 85% !important;
+    }
+}
