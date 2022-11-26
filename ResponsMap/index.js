@@ -29,10 +29,10 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
    }
 
    function openMapRoads() {
-      mapRoads[0].style.display = 'flex';
-      mapPublic[0].style.display = 'none';
-      mapWater[0].style.display = 'none';
-      mapCity[0].style.display = 'none';
+      mapRoads[0].style.visibility = 'visible';
+      mapPublic[0].style.visibility = 'hidden';
+      mapWater[0].style.visibility = 'hidden';
+      mapCity[0].style.visibility = 'hidden';
 
       buttonMapRoads[0].style.background = 'white';
       buttonMapPublic[0].style.background = 'gray';
@@ -46,10 +46,10 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
    }
 
    function openMapPublic() {
-      mapPublic[0].style.display = 'flex';
-      mapRoads[0].style.display = 'none';
-      mapWater[0].style.display = 'none';
-      mapCity[0].style.display = 'none';
+      mapPublic[0].style.visibility = 'visible';
+      mapRoads[0].style.visibility = 'hidden';
+      mapWater[0].style.visibility = 'hidden';
+      mapCity[0].style.visibility = 'hidden';
 
       buttonMapPublic[0].style.background = 'white';
       buttonMapRoads[0].style.background = 'gray';
@@ -63,10 +63,10 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
    }
 
    function openMapWater() {
-      mapWater[0].style.display = 'flex';
-      mapRoads[0].style.display = 'none';
-      mapPublic[0].style.display = 'none';
-      mapCity[0].style.display = 'none';
+      mapWater[0].style.visibility = 'visible';
+      mapRoads[0].style.visibility = 'hidden';
+      mapPublic[0].style.visibility = 'hidden';
+      mapCity[0].style.visibility = 'hidden';
 
       buttonMapWater[0].style.background = 'white';
       buttonMapPublic[0].style.background = 'gray';
@@ -80,10 +80,10 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
    }
 
    function openMapCity() {
-      // mapCity[0].style.display = 'flex';
-      // mapRoads[0].style.display = 'none';
-      // mapPublic[0].style.display = 'none';
-      // mapWater[0].style.display = 'none';
+      // mapCity[0].style.visibility = 'visible';
+      // mapRoads[0].style.visibility = 'hidden';
+      // mapPublic[0].style.visibility = 'hidden';
+      // mapWater[0].style.visibility = 'hidden';
 
 
       //buttonMapCity[0].style.background = 'white';

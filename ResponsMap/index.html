@@ -47,10 +47,13 @@
             <img onclick="openMapCity()" class="filter_image filter_image-city" src="./image/city-unactive.png"
                 alt="Придомовая территория" title="Дома и придомовая территория">
         </div>
-        <div id="maproad" class="map map-road" style="height: 480px;"></div>
-        <div id="mapwater" class="map map-river" style="height: 480px;"></div>
-        <div id="mappubl" class="map map-people" style="height: 480px;"></div>
-        <div id="mapcity" class="map map-city" style="height: 480px;"></div>
+        <div class="map">
+            <div class="loader" ></div>
+            <div id="maproad" class="map-road" ></div>
+            <div id="mapwater" class="map-river"></div>
+            <div id="mappubl" class="map-people"></div>
+            <div id="mapcity" class="map-city"></div>
+        </div>
         <!--<iframe class="map map-road" src="https://yandex.ru/map-widget/v1/?um=constructor%3A5f26c4d9e1ae42a998fb10f51ba99cb8b5b7141d78a952722561c0dc419e97a7&amp;source=constructor" height="480" frameborder="1"
             allowfullscreen="true" style="position:relative;">
         </iframe>
@@ -76,11 +79,11 @@
         </div>
         <div class="instruction" id="instruct">
             <h2 class="instruction__title">Как пользоваться картой</h2>
-            <p class="instruction__text">1. Выберите интересующий Вас слой:</p>
+            <p class="instruction__text">1. Выберите интересующую Вас зону:</p>
             <img class="instruction__img" src="./image/instr1.gif" alt="Дороги, мосты, тоннели">
-            <p class="instruction__text">2. Нажмите на интересующую Вас зону:</p>
+            <p class="instruction__text">2. Нажмите на интересующий Вас объект:</p>
             <img class="instruction__img" src="./image/instr2.gif" alt="Дороги, мосты, тоннели">
-            <p class="instruction__text">3. Свяжитесь с ответсвенной за обьект организацией по предоставленным
+            <p class="instruction__text">3. Свяжитесь с ответсвенной за объект организацией по предоставленным
                 контактам:</p>
             <img class="instruction__img" src="./image/instr3.gif" alt="Дороги, мосты, тоннели">
             <!--   <img class="description__img" src="./image/gov1.jpg">
@@ -110,9 +113,12 @@
         </nav>
     </footer>
     <script src="./index.js"></script>
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae42d8017c0dd27c978b52d2d31b2afe487998a3b908bb1b8b5789259578eb1d7&amp;width=500&amp;height=500&amp;id=mappubl&amp;lang=ru_RU&amp;scroll=true&amp;apikey=0a8b719a-d692-4dc3-abfb-827d8dd6a3b4"></script>
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5f26c4d9e1ae42a998fb10f51ba99cb8b5b7141d78a952722561c0dc419e97a7&amp;width=500&amp;height=500&amp;id=maproad&amp;lang=ru_RU&amp;scroll=true&amp;apikey=0a8b719a-d692-4dc3-abfb-827d8dd6a3b4"></script>
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3c422c1e495bffbf57bc93a5f6c8e3975a304c18b7d27b6bd332ce0092a5769e&amp;width=500&amp;height=500&amp;id=mapwater&amp;lang=ru_RU&amp;scroll=true&amp;apikey=0a8b719a-d692-4dc3-abfb-827d8dd6a3b4"></script>
-    </body>
+    <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae42d8017c0dd27c978b52d2d31b2afe487998a3b908bb1b8b5789259578eb1d7&amp;id=mappubl&amp;lang=ru_RU&amp;scroll=true&amp;apikey=0a8b719a-d692-4dc3-abfb-827d8dd6a3b4"></script>
+    <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5f26c4d9e1ae42a998fb10f51ba99cb8b5b7141d78a952722561c0dc419e97a7&amp;id=maproad&amp;lang=ru_RU&amp;scroll=true&amp;apikey=0a8b719a-d692-4dc3-abfb-827d8dd6a3b4"></script>
+    <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3c422c1e495bffbf57bc93a5f6c8e3975a304c18b7d27b6bd332ce0092a5769e&amp;id=mapwater&amp;lang=ru_RU&amp;scroll=true&amp;apikey=0a8b719a-d692-4dc3-abfb-827d8dd6a3b4"></script>
+</body>
 
 </html>
