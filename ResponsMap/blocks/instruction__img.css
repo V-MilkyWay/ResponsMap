@@ -14,3 +14,17 @@
 .instruction__img:nth-child(7) {
     grid-area: img3;
 }
+
+@media screen and (min-width: 1024px) {
+    .instruction__img {
+        width:  300px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .instruction__img {
+        width: 242px;
+        height: 236px;
+    }
+}
