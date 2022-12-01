@@ -80,19 +80,19 @@ let buttonMapCity = document.querySelectorAll('.filter_image-city');
    }
 
    function openMapCity() {
-      // mapCity[0].style.visibility = 'visible';
-      // mapRoads[0].style.visibility = 'hidden';
-      // mapPublic[0].style.visibility = 'hidden';
-      // mapWater[0].style.visibility = 'hidden';
+      mapCity[0].style.visibility = 'visible';
+      mapRoads[0].style.visibility = 'hidden';
+      mapPublic[0].style.visibility = 'hidden';
+      mapWater[0].style.visibility = 'hidden';
 
 
-      //buttonMapCity[0].style.background = 'white';
-      //buttonMapPublic[0].style.background = 'gray;';
-      //buttonMapWater[0].style.background= 'gray';
-      //buttonMapRoads[0].style.background = 'gray;';
+      buttonMapCity[0].style.background = 'white';
+      buttonMapPublic[0].style.background = 'gray';
+      buttonMapRoads[0].style.background= 'gray';
+      buttonMapWater[0].style.background = 'gray';
       
-      //buttonMapRoads[0].src = './image/road-unactive.png';
-      //buttonMapPublic[0].src = './image/people-unactive.png';
-      //buttonMapWater[0].src = './image/water-unactive.png';
-      //buttonMapCity[0].src = './image/city.png';
+      buttonMapRoads[0].src = './image/road-unactive.png';
+      buttonMapPublic[0].src = './image/people-unactive.png';
+      buttonMapWater[0].src = './image/water-unactive.png';
+      buttonMapCity[0].src = './image/city.png';
    }
